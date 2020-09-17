@@ -5,9 +5,9 @@
     <title>Questão 4 - Lista 1</title>
 </head>
 <body>
-    <form action="convertDegressFToC.php">
-        <input type="text" id="degreesInF" name="degreesInF" placeholder="Temperatura em F°" required>
-        <button type="submit">Transformar em Celsius</button>
+    <form action="calcSquare.php">
+        <input type="number" id="number" name="number" placeholder="Digite um número" required>
+        <button type="submit">Visualizar o quadrado</button>
     </form>
 </body>
 </html>

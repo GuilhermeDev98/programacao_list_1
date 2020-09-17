@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Questão 5 - Lista 1</title>
+    <title>Questão 4 - Lista 1</title>
 </head>
 <body>
-    <form action="calculateReadjustment.php">
-        <input type="text" id="balance" name="balance" placeholder="Saldo da poupança" required>
-        <button type="submit">Calcular Reajuste</button>
+    <form action="convertDegressFToC.php">
+        <input type="text" id="degreesInF" name="degreesInF" placeholder="Temperatura em F°" required>
+        <button type="submit">Transformar em Celsius</button>
     </form>
 </body>
 </html>
