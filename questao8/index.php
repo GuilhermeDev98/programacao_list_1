@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Questão 7 - Lista 1</title>
+    <title>Questão 8 - Lista 1</title>
 </head>
 <body>
     <form action="showInformations.php">
