@@ -6,7 +6,7 @@
 </head>
 <body>
     <fieldset>
-    <legend>M - matutino | V - Vespertino | N - Noturno</legend>
+    <legend>M - Matutino | V - Vespertino | N - Noturno</legend>
         <form action="message.php">
             <input type="text" name="turn" id="turn" placeholder="Em que turno você estuda ?" required>
             <button type="submit">Exibir Mensagem</button>
