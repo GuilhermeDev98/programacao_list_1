@@ -16,12 +16,14 @@ if($kgApple <= 5){
     $totalApple = $kgApple * 1.50;
 }
 
+
 $totalOfKg = $kgStrawberry + $kgApple;
 $totalOfSale = $totalStrawberry + $totalApple;
 
-if($totalOfKg > 8 || $totalOfSale > 25){
-    $discount = 10 . ($totalOfSale / 100);
-    $total = $discount - $totalOfSale;
+if($totalOfKg > 8 | $totalOfSale > 25){
+    $discount = 10 * ($totalOfSale / 100);
+    $total = $totalOfSale - $discount;
+
     echo "Valor a ser pago R$ ".round($total, 2);
 }else{
     echo "Valor a ser pago R$ ".round($totalOfSale, 2);
